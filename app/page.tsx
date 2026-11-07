@@ -108,6 +108,11 @@ export default function Home() {
           </article>
         </section>
       </main>
+      <footer className="mx-auto flex max-w-6xl flex-wrap gap-5 border-t border-line px-6 py-6 text-sm text-muted">
+        <Link className="underline underline-offset-4" href="/privacy">Privacy Policy</Link>
+        <Link className="underline underline-offset-4" href="/data-deletion">Data deletion</Link>
+        <a className="underline underline-offset-4" href="mailto:contact@bluveratechnologies.com">Contact</a>
+      </footer>
     </div>
   );
 }
