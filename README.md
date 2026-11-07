@@ -35,6 +35,7 @@ Vercel Hobby cron in `vercel.json` runs once a day as a backup. Without `pg_cron
 - Dashboard form
 - CSV or Excel import, up to 500 rows. Sample: `/sample-reminders.csv`
 - `POST /api/v1/reminders` with `Authorization: Bearer omni_...`
+- The manual form can generate a text-based UPI payment URI in INR. Copy it or insert it into a matching variable in the approved WhatsApp template. This creates a payment link only; it does not collect or verify payment.
 
 Send times without a zone are the workspace timezone. Values such as `2026-12-01 09:00` or a full ISO instant are accepted.
 
